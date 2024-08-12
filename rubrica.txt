@@ -1,0 +1,8 @@
+El objetivo de esta actividad consiste en poner en práctica los conocimientos adquiridos sobre los componentes IonButton, IonAlert & IonCard. 
+
+Instrucciones:
+
+En un nuevo repositorio público en GitHub llamado catracho-pizzas-repo tiene que hacer push de una aplicación llamada catracho-pizzas-app.  Debe crear un nuevo componente llamado product-card en el cual debe desarrollar la siguiente interfaz:
+{Plantilla.png} en assets.
+
+Haga uso del componente IonCard para mostrar la información del producto: imagen, titulo y descripción. Además utilice el componente IonButton para el botón del - y del +, al dar clic en botón menos debe restar la cantidad si es mayor a 1, y también debe sumar la cantidad al dar clic en el botón mas. Si el usuario da clic en el botón ordenar debe mostrar una alerta con el mensaje "Ha agregado correctamente el producto a su carrito" y con un botón de Aceptar para cerrar la alerta, esto se debe realizar usando IonAlert y AlertController desde el component class.
